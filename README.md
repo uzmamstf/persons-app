@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# url : https://persons-app-cd920.firebaseapp.com/
+# url : https://persons-app.uzmamstf.now.sh/
 
 ## Available Scripts
 
