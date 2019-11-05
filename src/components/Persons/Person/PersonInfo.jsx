@@ -15,10 +15,10 @@ export default function PersonInfo(props) {
 
             <ButtonGroup className="button-group" aria-label="Basic example">
                 <Button variant="light">
-                    <FontAwesomeIcon className="text-info" icon={faEdit} />
+                    <FontAwesomeIcon className="text-info" icon={faEdit}   onClick={props.enableEdit}/>
                 </Button>
                 <Button variant="light">
-                <FontAwesomeIcon className="text-danger" icon={faTimes} />
+                <FontAwesomeIcon className="text-danger" icon={faTimes} onClick={props.personDelete} />
                 </Button>
             </ButtonGroup>
         </Card.Body>
@@ -27,6 +27,8 @@ export default function PersonInfo(props) {
 }
 
 
-Person.propTypes = {
-    person: propTypes.object
-} 
+// Person.propTypes = {
+//     person: propTypes.object,
+//     enableEdit:PropType.func,
+//     personDelete:PropType.func
+// } 
